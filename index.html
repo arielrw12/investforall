@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/index-styling.css">
+    <link rel="stylesheet" type="text/css" href="css/carousel.css">
     <link rel="icon" type="image/png" href="images/favicon.ico">
 
     <!-- FINANCIAL CALCULATOR CSS -->
@@ -66,7 +67,7 @@
                         Invest For All
                     </h1>
                     <p class="landing__content-tagline">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                     <a class="calculator-link">Calculate Your Potential</a>
                 </div>
@@ -80,12 +81,33 @@
             </div>
         </div>
 
+        <div class="image-carousel">
+            <ul class="image-carousel__cards" data-target="image-carousel__cards">
+                <li class="image-carousel__card" data-target="image-carousel__card">
+                    <img src="images/carousel-1.jpg"
+                         alt="Investment Info">
+                </li>
+                <li class="image-carousel__card" data-target="image-carousel__card">
+                    <img src="images/carousel-2.jpg"
+                         alt="Investment Info">
+                </li>
+                <li class="image-carousel__card" data-target="image-carousel__card">
+                    <img src="images/carousel-3.jpg"
+                         alt="Investment Info">
+                </li>
+            </ul>
+            <div class="image-carousel__buttons">
+                <button class="image-carousel__button__left" data-action="slideLeft">&lt</button>
+                <button class="image-carousel__button__right" data-action="slideRight">&gt</button>
+            </div>
+        </div>
+
     </main>
 
     <footer>
         <span>PHOTO SOURCES NEEDED</span>
     </footer>
-  
+    <script src="./js/carousel.js"></script>
 </body>
 
 </html>
