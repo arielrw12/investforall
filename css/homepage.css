@@ -30,3 +30,19 @@ overflow: auto;
     width:90%;
     height:35%;
 }
+
+.mypage{
+    color:black !important;
+}
+/* ._1g6V3.broker,._1g6V3.commissions,._1g6V3.promotion,._1g6V3.accountMinimum,._1g6V3.learnMore._3cxan{
+    color:black !important;
+} */
+._39yeK,._39yeKm,._3HdHt{
+    color:black !important;
+    /* background-color:#BABABA !important; */
+}
+
+
+p,h2,th{
+    color:black;
+}
