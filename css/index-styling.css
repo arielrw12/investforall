@@ -10,9 +10,17 @@
 body {
 	background-color: #097b51;
 	background-image: url(../images/index-image.jpg);
-	background-attachment: fixed;
-	background-size: 100vw;
-	background-repeat: no-repeat;
+	/* background-attachment: fixed;
+	background-size: 100% !important;
+	background-repeat: no-repeat; */
+
+	 /* Full height */
+	 height: 100%; 
+
+	 /* Center and scale the image nicely */
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
 }
 header {
 	position: relative;
