@@ -48,18 +48,19 @@
 
 <body onload="init('#render')">
 
-    <header>
-        <img class="logo" src="../images/logo.png" alt="Logo" />
+    <header class="main-header">
+        <img class="logo" src="./images/logo.png" alt="Logo" />
         <nav class="header__nav">
             <ul class="header__nav__list">
-                <li class="header__nav__list-item"><a class="header__nav__list-link">Investment Calculator</a></li>
-                <li class="header__nav__list-item"><a class="header__nav__list-link">Financial Education</a></li>
+                <li class="header__nav__list-item"><a href="#calculator" class="header__nav__list-link">Investment Calculator</a></li>
+                <li class="header__nav__list-item"><a href="#education" class="header__nav__list-link">Financial Education</a></li>
                 <li class="header__nav__list-item"><a class="header__nav__list-link">Start Trading</a></li>
             </ul> 
         </nav>
     </header>
 
     <main>
+
         <div id="landing" class="landing">
             <div class="landing__hero-image">
                 <div class="landing__content">
@@ -69,19 +70,19 @@
                     <p class="landing__content-tagline">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
-                    <a class="calculator-link">Calculate Your Potential</a>
+                    <a href="#calculator" class="calculator-link">Calculate Your Potential</a>
                 </div>
             </div>
         </div>
 
-        <div class="container">
+        <div id="calculator" class="container">
             <div class="row">
                 <div class="col-sm-12" id='render'>
                 </div>
             </div>
         </div>
 
-        <div class="image-carousel">
+        <div id="education" class="image-carousel">
             <ul class="image-carousel__cards" data-target="image-carousel__cards">
                 <li class="image-carousel__card" data-target="image-carousel__card">
                     <img src="images/carousel-1.jpg"
