@@ -48,7 +48,7 @@
 
 <body onload="init('#render')">
 
-    <header class="main-header">
+    <div class="main-header">
         <img class="logo" src="./images/logo.png" alt="Logo" />
         <nav class="header__nav">
             <ul class="header__nav__list">
@@ -57,11 +57,10 @@
                 <li class="header__nav__list-item"><a class="header__nav__list-link">Start Trading</a></li>
             </ul> 
         </nav>
-    </header>
+    </div>
+    <div class="main">
 
-    <main>
-
-        <div id="landing" class="landing">
+        <div  class="landing">
             <div class="landing__hero-image">
                 <div class="landing__content">
                     <h1 class="landing__content-title">
@@ -83,33 +82,33 @@
         </div>
 
         <div class="carousel-container">
-        <div id="education" class="image-carousel">
-            <ul class="image-carousel__cards" data-target="image-carousel__cards">
-                <li class="image-carousel__card" data-target="image-carousel__card">
-                    <img src="images/carousel-1.jpg"
-                         alt="Investment Info">
-                </li>
-                <li class="image-carousel__card" data-target="image-carousel__card">
-                    <img src="images/carousel-2.jpg"
-                         alt="Investment Info">
-                </li>
-                <li class="image-carousel__card" data-target="image-carousel__card">
-                    <img src="images/carousel-3.jpg"
-                         alt="Investment Info">
-                </li>
-            </ul>
-            <div class="image-carousel__buttons">
-                <button class="image-carousel__button__left" data-action="slideLeft">&lt</button>
-                <button class="image-carousel__button__right" data-action="slideRight">&gt</button>
-            </div>
-        </div>
+                <div id="education" class="image-carousel">
+                    <ul class="image-carousel__cards" data-target="image-carousel__cards">
+                        <li class="image-carousel__card" data-target="image-carousel__card">
+                            <img src="images/carousel-1.jpg"
+                                alt="Investment Info">
+                        </li>
+                        <li class="image-carousel__card" data-target="image-carousel__card">
+                            <img src="images/carousel-2.jpg"
+                                alt="Investment Info">
+                        </li>
+                        <li class="image-carousel__card" data-target="image-carousel__card">
+                            <img src="images/carousel-3.jpg"
+                                alt="Investment Info">
+                        </li>
+                    </ul>
+                    <div class="image-carousel__buttons">
+                        <button class="image-carousel__button__left" data-action="slideLeft">&lt</button>
+                        <button class="image-carousel__button__right" data-action="slideRight">&gt</button>
+                    </div>
+                </div>
         </div>
 
-    </main>
+    </div>
 
-    <footer>
+    <!-- <div class="footer">
         <span>PHOTO SOURCES NEEDED</span>
-    </footer>
+    </div> -->
     <script src="./js/carousel.js"></script>
 </body>
 
